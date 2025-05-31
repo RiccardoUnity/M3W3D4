@@ -1,0 +1,19 @@
+.background {
+    background-color: rgba(0, 0, 0, 0.58);
+}
+
+.testo {
+    -unity-text-align: upper-center;
+    -unity-font: url("project://database/Assets/UI%20Toolkit/SourGummy-Black.ttf?fileID=12800000&guid=f4007db73ec28354aaf1ddb9e19e374f&type=3#SourGummy-Black");
+    -unity-font-definition: initial;
+    font-size: 21px;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    color: rgb(255, 125, 0);
+}
+
+.testo.dati {
+    -unity-font: url("project://database/Assets/UI%20Toolkit/SourGummy-Bold.ttf?fileID=12800000&guid=5318d4bcaa2ba9c478741fa4ac6f525b&type=3#SourGummy-Bold");
+    -unity-font-definition: initial;
+    color: rgb(255, 219, 0);
+}

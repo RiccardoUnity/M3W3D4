@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/style.uss?fileID=7433441132597879392&amp;guid=2ac12358711bb7d478ff157997e3dbd7&amp;type=3#style" />
+    <ui:VisualElement>
+        <ui:VisualElement class="background" style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="Score" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MyScore" class="testo" />
+                <ui:Label tabindex="-1" text="Point" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MyPoint" class="testo dati" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; flex-direction: column;">
+                <ui:Label tabindex="-1" text="EnemyName" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NameEnemy" class="testo" style="height: 25px;" />
+                <ui:Label tabindex="-1" text="LifeEnemy" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LifeEnemy" class="testo dati" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement />
+</ui:UXML>
